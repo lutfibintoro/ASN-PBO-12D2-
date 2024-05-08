@@ -21,5 +21,7 @@ public class Main {
         pelanggan = new User();
         pelanggan.dataPengguna();
         pelanggan.showData();
+
+        //selesai
     }
 }
