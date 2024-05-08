@@ -40,9 +40,9 @@ public class Member extends User{
     @Override
     public void dataPengguna(String nama, String noTelpon, String alamat, int umur){
         System.out.printf("Masukkan data dengan benar:\nNama\t\t: " +nama);
-        System.out.printf("NoTelpon\t: " +noTelpon);
-        System.out.printf("Alamat\t\t: " +alamat);
-        System.out.printf("Umur\t\t: " +umur);
+        System.out.printf("\nNoTelpon\t: " +noTelpon);
+        System.out.printf("\nAlamat\t\t: " +alamat);
+        System.out.printf("\nUmur\t\t: " +umur);
 
         System.out.printf("\n1.Beli/2.Sewa\npilih\t: ");
         pilihan = input.nextInt();
