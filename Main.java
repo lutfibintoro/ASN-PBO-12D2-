@@ -16,7 +16,7 @@ public class Main {
         pelanggan.dataPengguna();
         pelanggan.showData();
 
-        System.out.println("\n-------------------------------------------------------------------------------------------------------------------------------------------\n");
+        System.out.println("\n---------------------------------------------------------------------------------------\n");
 
         pelanggan = new User();
         pelanggan.dataPengguna();
