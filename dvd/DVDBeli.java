@@ -1,7 +1,7 @@
 package dvd;
 import film.DaftarFilm;
 import java.util.Scanner;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 
 public class DVDBeli extends DVD {
@@ -9,7 +9,7 @@ public class DVDBeli extends DVD {
     DaftarFilm pilih = new DaftarFilm();
     Scanner input = new Scanner(System.in);
 
-    LocalDateTime waktuBeli;
+    LocalDate waktuBeli;
     
 
     @Override
@@ -26,7 +26,7 @@ public class DVDBeli extends DVD {
         System.out.println("9. Siksa neraka");
         System.out.println("10. Tobat");
         pilihFilm();
-        waktuBeli = LocalDateTime.now();
+        waktuBeli = LocalDate.now();
     }
 
     @Override
@@ -81,7 +81,7 @@ public class DVDBeli extends DVD {
         return filmYangDibeli;
     }
 
-    public LocalDateTime getWaktu(){
+    public LocalDate getWaktu(){
         return waktuBeli;
     }
 }

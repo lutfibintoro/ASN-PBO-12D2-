@@ -1,11 +1,11 @@
 package transaksi;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 
 public class Pembelian {
 
 
-    public void showDataPengguna(String nama, String noTelpon, String alamat, int umur, String member, String filmYangDiPilih, LocalDateTime waktuTransaksi){
+    public void showDataPengguna(String nama, String noTelpon, String alamat, int umur, String member, String filmYangDiPilih, LocalDate waktuTransaksi){
         System.out.println("\nUser berhasil melakukan transaksi pembelian DVD dengan " +member);
         System.out.println("Nama\t\t\t: " +nama);
         System.out.println("NoTelpon\t\t: " +noTelpon);
@@ -16,7 +16,7 @@ public class Pembelian {
         System.out.println("Status\t\t\t: " +member+ "\n");
     }
 
-    public void showDataPengguna(String nama, String noTelpon, String alamat, int umur, String filmYangDiPilih, LocalDateTime waktuTransaksi){
+    public void showDataPengguna(String nama, String noTelpon, String alamat, int umur, String filmYangDiPilih, LocalDate waktuTransaksi){
         System.out.println("\nUser berhasil melakukan transaksi pembelian DVD");
         System.out.println("Nama\t\t\t: " +nama);
         System.out.println("NoTelpon\t\t: " +noTelpon);

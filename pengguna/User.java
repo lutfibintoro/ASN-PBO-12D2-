@@ -1,6 +1,6 @@
 package pengguna;
 import java.util.Scanner;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import dvd.*;
 import transaksi.*;
 
@@ -10,7 +10,7 @@ public class User {
     protected String alamat;
     protected int umur;
     protected String filmYangDipilih;
-    protected LocalDateTime waktu;
+    protected LocalDate waktu;
     private int pilihan;
 
     Scanner input = new Scanner(System.in);
